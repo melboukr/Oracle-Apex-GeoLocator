@@ -33,7 +33,7 @@ prompt APPLICATION 204237 - PluginsHub
 -- Application Export:
 --   Application:     204237
 --   Name:            PluginsHub
---   Date and Time:   17:32 Friday April 5, 2024
+--   Date and Time:   17:36 Friday April 5, 2024
 --   Exported By:     MOHAMMEDELBOUKRI00@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -138,6 +138,10 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_type=>'PAGE ITEM'
 ,p_is_required=>true
 ,p_is_translatable=>false
+,p_depending_on_attribute_id=>wwv_flow_imp.id(89236021443013094911)
+,p_depending_on_has_to_exist=>true
+,p_depending_on_condition_type=>'NOT_EQUALS'
+,p_depending_on_expression=>'2'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(89252410096717966395)
@@ -149,6 +153,10 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_type=>'PAGE ITEM'
 ,p_is_required=>false
 ,p_is_translatable=>false
+,p_depending_on_attribute_id=>wwv_flow_imp.id(89236021443013094911)
+,p_depending_on_has_to_exist=>true
+,p_depending_on_condition_type=>'EQUALS'
+,p_depending_on_expression=>'2'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
  p_id=>wwv_flow_imp.id(89252417582686967733)
@@ -160,6 +168,10 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_type=>'PAGE ITEM'
 ,p_is_required=>false
 ,p_is_translatable=>false
+,p_depending_on_attribute_id=>wwv_flow_imp.id(89236021443013094911)
+,p_depending_on_has_to_exist=>true
+,p_depending_on_condition_type=>'EQUALS'
+,p_depending_on_expression=>'2'
 );
 end;
 /
