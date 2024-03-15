@@ -33,7 +33,7 @@ prompt APPLICATION 204237 - PluginsHub
 -- Application Export:
 --   Application:     204237
 --   Name:            PluginsHub
---   Date and Time:   17:38 Friday April 5, 2024
+--   Date and Time:   19:34 Friday April 5, 2024
 --   Exported By:     MOHAMMEDELBOUKRI00@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -88,10 +88,10 @@ wwv_flow_imp_shared.create_plugin(
 ,p_default_escape_mode=>'HTML'
 ,p_api_version=>2
 ,p_render_function=>'RENDER'
-,p_standard_attributes=>'REGION'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
+,p_about_url=>'https://github.com/melboukr/Oracle-Apex-GeoLocator'
 ,p_files_version=>157
 );
 wwv_flow_imp_shared.create_plugin_attribute(
@@ -105,6 +105,10 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_is_required=>true
 ,p_default_value=>'0'
 ,p_is_translatable=>false
+,p_depending_on_attribute_id=>wwv_flow_imp.id(89281073514407731067)
+,p_depending_on_has_to_exist=>true
+,p_depending_on_condition_type=>'EQUALS'
+,p_depending_on_expression=>'Y'
 ,p_lov_type=>'STATIC'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
@@ -172,6 +176,18 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_depending_on_has_to_exist=>true
 ,p_depending_on_condition_type=>'EQUALS'
 ,p_depending_on_expression=>'2'
+);
+wwv_flow_imp_shared.create_plugin_attribute(
+ p_id=>wwv_flow_imp.id(89281073514407731067)
+,p_plugin_id=>wwv_flow_imp.id(89200000575028953182)
+,p_attribute_scope=>'COMPONENT'
+,p_attribute_sequence=>5
+,p_display_sequence=>50
+,p_prompt=>'Save Result'
+,p_attribute_type=>'CHECKBOX'
+,p_is_required=>false
+,p_default_value=>'N'
+,p_is_translatable=>false
 );
 end;
 /
