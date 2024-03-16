@@ -7,5 +7,12 @@
     "bugs" : {
         "url" : "https://github.com/melboukr/Oracle-Apex-GeoLocator",
         "email" : "mohammedelboukri00@gmail.com"
+      },
+      "license" : "MIT",
+      "commercial" : "No",
+      "author" : {
+        "name" : "Melboukr",
+        "email" : "mohammedelboukri00@gmail.com",
+        "twitter" : "melboukr"
       }
   }
