@@ -13,6 +13,18 @@
       "author" : {
         "name" : "Melboukr",
         "email" : "mohammedelboukri00@gmail.com",
+        "url" : "http://wadie.me",
         "twitter" : "melboukr"
       }
+      ,
+      "oracle" : {
+      "versions" : ["19.0.0.0","21.0.0.0"],
+      "apex" : {
+        "versions" : ["19.1","19.2","20.1","20.2","21.1","21.2","22.1","22.2","23.1","23.2"],
+        "plugin" : {
+            "internalName" : "com.melbkr.GeoLocator",
+            "type" : "dynamic action"
+          }
+        }
+    }
   }
