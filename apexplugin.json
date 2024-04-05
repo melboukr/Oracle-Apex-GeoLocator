@@ -1,0 +1,7 @@
+{
+    "name" : "Oracle Apex GeoLocator",
+    "version" : "1.0",
+    "description" : "The Oracle Apex GeoLocator Plugin simplifies location mapping and visualization within Apex applications. With native integration and no requirement for static map IDs, users can effortlessly locate and visualize positions. The plugin offers the flexibility to save data in JSON, GeoJSON, or latitude and longitude formats, enhancing user experience and streamlining spatial analysis tasks",
+    "keywords": ["GeoLocator", "Location Visualization", "Map Integration", "Geolocation", "Navigation Enhancement",  "Map Initialization", "Effortless Location Tracking", "User-friendly Interface"],
+    "homepage" : "https://github.com/melboukr/Oracle-Apex-GeoLocator"
+  }
